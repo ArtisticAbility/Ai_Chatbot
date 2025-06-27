@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ABTECH AI Assistant</title>
-  <link rel="stylesheet" href="style.css">
+
   <!-- Load Tixae Widget Styles -->
-<!--   <link rel="stylesheet" href="https://vg-bunny-cdn.b-cdn.net/vg_dev_build/styles.css">
- -->
+  <link rel="stylesheet" href="https://vg-bunny-cdn.b-cdn.net/vg_dev_build/styles.css">
+
   <!-- Hide Tixae Branding -->
-<!--   <style>
+  <style>
     .vg-footer-branding,
     .vg-footer-branding a {
       display: none !important;
@@ -28,7 +28,7 @@
       padding: 20px;
       color: #003366;
     }
-  </style> -->
+  </style>
 </head>
 
 <body>
@@ -49,7 +49,7 @@
 
     // Load Tixae widget script
     const VG_SCRIPT = document.createElement("script");
-    // VG_SCRIPT.src = "https://vg-bunny-cdn.b-cdn.net/vg_dev_build/vg_bundle.js";
+    VG_SCRIPT.src = "https://vg-bunny-cdn.b-cdn.net/vg_dev_build/vg_bundle.js";
     VG_SCRIPT.defer = true;
     document.body.appendChild(VG_SCRIPT);
   </script>
